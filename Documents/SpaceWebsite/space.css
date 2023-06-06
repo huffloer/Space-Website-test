@@ -1,0 +1,130 @@
+* {
+    color: #F6F6F6;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #030303;
+}
+.everything {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.navbar {
+    margin: auto;
+    width: 90vw;
+    display: flex;
+    padding: 3rem 5rem;
+    justify-content: space-around;
+    align-items: baseline;
+    font-weight: 300;
+}
+
+.text {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.texte hr{
+    transition: visibility 0.2s ease;
+    transition: width 0.3s ease;
+    width: 0%;
+    visibility: hidden;
+}
+
+.texte:hover hr{
+    visibility: visible;
+    width: 100%;
+}
+
+
+
+.hamburger button{
+    /*border: 1px solid #0DD7;*/
+    outline: none;
+    border-radius: 3rem;
+    font-size: 1rem;
+    padding: 1em 1.8em;
+    background-color: #00dddd77;
+    transition: background-color 0.2s ease;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 50%;
+    gap: 1.5rem;
+    padding-left:5rem;
+}
+
+.bigTitle {
+    font-size: 4.5rem;
+    font-weight: 600;
+    width: 60%;
+}
+
+.smallDescrip{
+    font-size: 1.rem;
+    width: 50%;
+    
+}
+
+.container button{
+    border-radius: 3rem;
+    font-size: 1rem;
+    padding: 1em 1.8em;
+    background-color: #00dddd77;
+    transition: background-color 0.2s ease;
+}
+
+button:hover{
+    background-color: #00ddddbb;
+}
+
+.bigTitle span{
+    color: #0dd7;
+}
+
+
+.planets {
+    margin: 0 4em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.planet {
+    margin:2rem 5rem;
+    font-size: 10px;
+    z-index: 1;
+}
+
+.planets hr{
+    width: 75%;
+    margin-bottom: 2em;
+    border-color: #A2A19F;
+    transition: width 0.3s ease;
+}
+
+.planet:hover hr{
+    width:100%;
+}
+
+.container img{
+    background: none;
+    position: absolute;
+    width: 25vw;
+    right: 12rem;
+    transition: transform 1s ease;
+    
+}
+
+img:hover{
+    /* width:26vw; */
+    transform: scale(1.1);
+} 
+
